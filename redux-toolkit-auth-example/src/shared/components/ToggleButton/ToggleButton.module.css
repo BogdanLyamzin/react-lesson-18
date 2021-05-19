@@ -1,0 +1,16 @@
+.btn {
+    text-decoration: none;
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid     ;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btnActive {
+    composes: btn;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}

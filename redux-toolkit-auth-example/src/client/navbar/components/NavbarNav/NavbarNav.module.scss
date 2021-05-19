@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+}
+
+.item {
+
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    padding: 10px 15px;
+    background-color: #000;
+
+    &:hover {
+        background-color: red;
+    }
+}
+
